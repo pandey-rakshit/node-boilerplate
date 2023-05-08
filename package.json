@@ -1,0 +1,38 @@
+{
+  "name": "Node Boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pandey-rakshit/node-boilerplate.git"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "pandey-rakshit",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "_moduleAliases": {
+    "@config": "config/",
+    "@app": "src/",
+    "@root": "./"
+  }
+}
